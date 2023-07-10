@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- 讓網頁可以縣市在各個裝置上 !-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href="css/style.css">
+    <!--中文字型-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&display=swap" rel="stylesheet">
+     <!--英文字型-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;700;900&family=Noto+Serif+TC:wght@300;700&family=Roboto+Condensed:ital@1&family=Roboto:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+   <!--icon-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">     
+   <title>來ㄎ一甲奔</title>
+</head>
+<body>
+  <!--複製bootstrap的-->
+  <nav class="navbar navbar-expand-lg bg-warning-subtle">
+    <div class="container-fluid">
+     <!-- <a class="navbar-brand" href="#">快速移動</a>-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="">首頁</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              食物類型
+            </a>
+            <ul class="dropdown-menu bg-warning">
+              <li><a class="dropdown-item" href="#">義式料理</a></li>
+              <li><a class="dropdown-item" href="#">台式料理</a></li>
+              <li><a class="dropdown-item" href="#">泰式料理</a></li>
+              <li><a class="dropdown-item" href="#">飲料類</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">關於我們</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--第一個區塊banner-->
+<section id="intro" style="background: linear-gradient(45deg, rgba(248, 248, 248, 0.9), transparent) 20%, url(pictures/view.jpg) no-repeat center;background-size: cover;">
+
+    <div class="jumbotron">
+            <div class="container">
+                    <div class = 'row'>
+                            <div class = 'col-md-12'>
+                              <h1 class = "display-2 fw-medium" style="font-size:30px;"> 歡迎來到義式料理區，義式料理是個吃飯聊天的好選擇<br>餐點品質、整理氛圍、服務態度，都是義式料理不可或缺的一環，<br>這邊幫大家整理出高雄推薦的義式餐廳，趕快約三五好友來嘗鮮吧</h1>    
+                      </div>       
+                            </div>
+                    </div>
+            </div>
+    </div>
+</section>
+<!--第二個區塊介紹-->
+<section id = "second">
+  <div class = "container">
+          <div class="row">
+                  <div class = "col-md-8 offset-md-2 text-center ">
+                          <br>
+
+                                  <div class="col-md-11 ">
+                                          <p style="font-size:40px;" ><i class="fa-solid fa-car-side fa-bounce" style="color: #edf11e;"></i>快速移動</p>
+                                          <a href='#latest'><p style="font-size: large;"><i class="fa-solid fa-angle-right fa-lg" style="color: #edf11e;"></i>1. 波市多拿坡里披薩 Posto Pizza Napoletana</p></a>
+                                          <a href='#latest1'><p style="font-size: large;"><i class="fa-solid fa-angle-right fa-lg" style="color: #edf11e;"></i>2. 帕狄尼諾 Padrino 義大利廚房</p></a>
+                                          <a href='#latest2'><p style="font-size: large;"><i class="fa-solid fa-angle-right fa-lg" style="color: #edf11e;"></i>3. Pizzeria da Chou 老周披薩</p></a>
+                                          <a href='#latest3'><p style="font-size: large;"><i class="fa-solid fa-angle-right fa-lg" style="color: #edf11e;"></i>4. Pizzeria Vintage 老派披薩</p></a>
+                                  </div>
+                          </div>
+                  </div>
+          </div>
+  </div>
+</section>
+
+    <!--第三個區塊介紹-->
+    <section id="latest">
+      <div class="container">
+              <div class ='row'>
+                      <div class ='col-md-12 text-center '>
+                              <div class ='row'>
+                                      <div class ='col-md-4 text-left'>
+                                              <div class="outer">
+                                                      <a href="single.html">
+                                                              <div class="upper">
+                                                                      <a href="https://zh-tw.facebook.com/posto289/" target="_self"> <img src='pictures/ItalianCuisine1.jpg'></a>
+                                                                     
+                                                              
+                                                              </div>
+                                                      </a> 
+                                                              <div class="lower">
+                                                                      <h3>波市多拿坡里披薩</h3>
+                                                                      
+                                                                     
+                                                                     <!-- <span><i class='far fa-clock'></i>營業時間</span>  -->
+                                                              </div>
+                                                             
+                                              </div>
+                                      </div>
+                                      <div class ='col-md-4 text-left'>
+                                        <div class="outer">
+                                                        <div class="upper">
+                                                        </div>
+                                                        <div class="lower">
+                                                                <br>
+                                                                <h3>波市多拿坡里披薩</h3>
+                                                                <h3>地址：高雄市左營區至聖路289號</h3>
+                                                                <h3>電話:(07) 5508993</h3>
+                                                                <h3>營業時間：每天 11:00~22:00</h3>
+                                                                <h3><i class="fa-sharp fa-solid fa-star"></i>網路評分:4.4/5 </h3>
+                                                               <!-- <span><i class='far fa-clock'></i>營業時間</span>  -->
+                                                        </div>
+                                                        
+                                        </div>
+                                    </div>
+                                     
+                              </div>
+                         
+                               
+                            </div>
+                           <div>
+  
+                      </div>
+              </div>
+      </div>
+  </section>
+
+
+  <section id="latest1">
+    <div class="container">
+            <div class ='row'>
+                    <div class ='col-md-12 text-center '>
+                      <div class ='row'>
+                        <div class ='col-md-4 text-left'>
+                                <div class="outer">
+                                        <a href="single.html">
+                                                <div class="upper">
+                                                        <a href="https://www.facebook.com/padrino252/?locale=zh_TW" target="_self"> <img src='pictures/ItalianCuisine2.jpg'></a>
+                                                       
+                                                
+                                                </div>
+                                        </a> 
+                                                <div class="lower">
+                                                        <h3>帕狄尼諾 Padrino 義大利廚房</h3>
+                                                        
+                                                       
+                                                       <!-- <span><i class='far fa-clock'></i>營業時間</span>  -->
+                                                </div>
+                                               
+                                </div>
+                        </div>
+                        <div class ='col-md-4 text-left'>
+                          <div class="outer">
+                                          <div class="upper">
+                                          </div>
+                                          <div class="lower">
+                                                  <br>
+                                                
+                                                  <h3>帕狄尼諾 Padrino 義大利廚房</h3>
+                                                  <h3>地址：高雄市三民區大裕路252號</h3>
+                                                  <h3>電話:(07) 310-7608</h3>
+                                                  <h3>營業時間：每天 11:30~14:00、18:00~21:00</h3>
+                                                  <h3><i class="fa-sharp fa-solid fa-star"></i>網路評分:4.2/5 </h3>
+                                                 <!-- <span><i class='far fa-clock'></i>營業時間</span>  -->
+                                          </div>
+                                          
+                          </div>
+                       </div>   
+                          
+                    </div>
+            </div>
+    </div>
+</section>
+
+
+<section id="latest2">
+  <div class="container">
+          <div class ='row'>
+                  <div class ='col-md-12 text-center '>
+                    <div class ='row'>
+                              
+                      <div class ='col-md-4 text-left'>
+                              <div class="outer">
+                                      <a href="single.html">
+                                              <div class="upper">
+                                                      <a href="https://www.facebook.com/people/Pizzeria-da-Chou-%E8%80%81%E5%91%A8%E6%8A%AB%E8%96%A9/100063774524871/" target="_self"> <img src='pictures/ItalianCuisine3.jpg'></a>
+                                                     
+                                              
+                                              </div>
+                                      </a> 
+                                              <div class="lower">
+                                                      <h3>Pizzeria da Chou 老周披薩</h3>
+                                                      
+                                                     
+                                                     <!-- <span><i class='far fa-clock'></i>營業時間</span>  -->
+                                              </div>
+                                             
+                              </div>
+                      </div>
+                      <div class ='col-md-4 text-left'>
+                        <div class="outer">
+                                        <div class="upper">
+                                        </div>
+                                        <div class="lower">
+                                                <br>
+                                                <h3>Pizzeria da Chou 老周披薩</h3>
+                                                <h3>地址：高雄市三民區松江街397號</h3>
+                                                <h3>電話:(07) 322 9338</h3>
+                                                <h3>營業時間：星期一、二、四~日 11:30~14:00、17:30~20:30 (星期三公休)
+                                                <h3><i class="fa-sharp fa-solid fa-star"></i>網路評分:4.2/5 </h3>
+                                               <!-- <span><i class='far fa-clock'></i>營業時間</span>  -->
+                                        </div>
+                                        
+                        </div>
+                    </div>
+                   
+          </div>
+  </div>
+</section>
+
+<section id="latest3">
+  <div class="container">
+          <div class ='row'>
+                  <div class ='col-md-12 text-center '>
+                    <div class ='row'>
+                              
+                      <div class ='col-md-4 text-left'>
+                              <div class="outer">
+                                      <a href="single.html">
+                                              <div class="upper">
+                                                      <a href="https://www.facebook.com/Pizzeria.Vintage/?locale=zh_TW" target="_self"> <img src='pictures/ItalianCuisine4.jpg'></a>
+                                                     
+                                              
+                                              </div>
+                                      </a> 
+                                              <div class="lower">
+                                                      <h3>Pizzeria Vintage 老派披薩</h3>
+                                                      
+                                                     
+                                                     <!-- <span><i class='far fa-clock'></i>營業時間</span>  -->
+                                              </div>
+                                             
+                              </div>
+                      </div>
+                      <div class ='col-md-4 text-left'>
+                        <div class="outer">
+                                        <div class="upper">
+                                        </div>
+                                        <div class="lower">
+                                                <br>
+                                                <h3>Pizzeria Vintage 老派披薩</h3>
+                                                <h3>地址：高雄市左營區光興街43號</h3>
+                                                <h3>電話:(07) 550-6606</h3>
+                                                <h3>營業時間：星期一 17:00~20:00<br>星期二~六 11:30~14:00、17:00~20:00<br>星期日 11:30~14:00</h3>
+                                                <h3><i class="fa-sharp fa-solid fa-star"></i>網路評分:4.0/5 </h3>
+                                               <!-- <span><i class='far fa-clock'></i>營業時間</span>  -->
+                                        </div>
+                                        
+                        </div>
+                    </div>
+                   
+          </div>
+  </div>
+</section>
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
